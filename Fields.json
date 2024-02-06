@@ -1,0 +1,224 @@
+{
+  "numGoals": {
+    "type": "number",
+    "label": "Number of Goals (1-8)",
+    "value": 4
+  },
+  "pointsPerSub": {
+    "type": "number",
+    "label": "Points per sub",
+    "value": 5
+  },
+  "pointsPerTip": {
+    "type": "number",
+    "label": "Points per 1 currency",
+    "value": 1
+  },
+  "pointsPerBit": {
+    "type": "number",
+    "label": "Points per Bit",
+    "value": 0.01
+  },
+  "bidCommand": {
+    "type": "text",
+    "label": "Bid Command",
+    "value": "!bid"
+  },
+  "clearCommand": {
+    "type": "text",
+    "label": "Clear all Bid War data",
+    "value": "!bidclear"
+  },
+  "managePermissions": {
+    "type": "dropdown",
+    "label": "Command Access for Add/Remove",
+    "options": {
+      "streamer": "Streamer",
+      "mods": "Streamer+Mods"
+    }
+  },
+  "addCommand": {
+    "type": "text",
+    "label": "Add Points to Bid Option",
+    "value": "!bidadd"
+  },
+  "removeCommand": {
+    "type": "text",
+    "label": "Remove Points from Bid Option",
+    "value": "!bidremove"
+  },
+  "fontName": {
+    "type": "text",
+    "label": "Font Name",
+    "value": "Roboto"
+  },
+  "labelSize": {
+    "type": "number",
+    "label": "Label font Size",
+    "value": 24
+  },
+  "labelStroke": {
+    "type": "number",
+    "label": "Label stroke size",
+    "value": 1
+  },
+  "bid1Text": {
+    "type": "text",
+    "label": "Bid Name",
+    "value": "Bid 1",
+    "group": "Bid Option 1"
+  },
+  "bid1Color": {
+    "type": "colorpicker",
+    "label": "Bar color",
+    "value": "rgb(63, 63, 195)",
+    "group": "Bid Option 1"
+  },
+  "bid1TextColor": {
+    "type": "colorpicker",
+    "label": "Text color",
+    "value": "rgb(1, 0, 0)",
+    "group": "Bid Option 1"
+  },
+  "bid2Text": {
+    "type": "text",
+    "label": "Bid Name",
+    "value": "Bid 2",
+    "group": "Bid Option 2"
+  },
+  "bid2Color": {
+    "type": "colorpicker",
+    "label": "Bar color",
+    "value": "rgb(63, 63, 195)",
+    "group": "Bid Option 2"
+  },
+  "bid2TextColor": {
+    "type": "colorpicker",
+    "label": "Text color",
+    "value": "rgb(1, 0, 0)",
+    "group": "Bid Option 2"
+  },
+  "bid3Text": {
+    "type": "text",
+    "label": "Bid Name",
+    "value": "Bid 3",
+    "group": "Bid Option 3"
+  },
+  "bid3Color": {
+    "type": "colorpicker",
+    "label": "Bar color",
+    "value": "rgb(63, 63, 195)",
+    "group": "Bid Option 3"
+  },
+  "bid3TextColor": {
+    "type": "colorpicker",
+    "label": "Text color",
+    "value": "rgb(1, 0, 0)",
+    "group": "Bid Option 3"
+  },
+  "bid4Text": {
+    "type": "text",
+    "label": "Bid Name",
+    "value": "Bid 4",
+    "group": "Bid Option 4"
+  },
+  "bid4Color": {
+    "type": "colorpicker",
+    "label": "Bar color",
+    "value": "rgb(63, 63, 195)",
+    "group": "Bid Option 4"
+  },
+  "bid4TextColor": {
+    "type": "colorpicker",
+    "label": "Text color",
+    "value": "rgb(1, 0, 0)",
+    "group": "Bid Option 4"
+  },
+  "bid5Text": {
+    "type": "text",
+    "label": "Bid Name",
+    "value": "Bid 5",
+    "group": "Bid Option 5"
+  },
+  "bid5Color": {
+    "type": "colorpicker",
+    "label": "Bar color",
+    "value": "rgb(63, 63, 195)",
+    "group": "Bid Option 5"
+  },
+  "bid5TextColor": {
+    "type": "colorpicker",
+    "label": "Text color",
+    "value": "rgb(1, 0, 0)",
+    "group": "Bid Option 5"
+  },
+  "bid6Text": {
+    "type": "text",
+    "label": "Bid Name",
+    "value": "Bid 6",
+    "group": "Bid Option 6"
+  },
+  "bid6Color": {
+    "type": "colorpicker",
+    "label": "Bar color",
+    "value": "rgb(63, 63, 195)",
+    "group": "Bid Option 6"
+  },
+  "bid6TextColor": {
+    "type": "colorpicker",
+    "label": "Text color",
+    "value": "rgb(1, 0, 0)",
+    "group": "Bid Option 6"
+  },
+  "bid7Text": {
+    "type": "text",
+    "label": "Bid Name",
+    "value": "Bid 7",
+    "group": "Bid Option 7"
+  },
+  "bid7Color": {
+    "type": "colorpicker",
+    "label": "Bar color",
+    "value": "rgb(63, 63, 195)",
+    "group": "Bid Option 7"
+  },
+  "bid7TextColor": {
+    "type": "colorpicker",
+    "label": "Text color",
+    "value": "rgb(1, 0, 0)",
+    "group": "Bid Option 7"
+  },
+  "bid8Text": {
+    "type": "text",
+    "label": "Bid Name",
+    "value": "Bid 8",
+    "group": "Bid Option 8"
+  },
+  "bid8Color": {
+    "type": "colorpicker",
+    "label": "Bar color",
+    "value": "rgb(63, 63, 195)",
+    "group": "Bid Option 8"
+  },
+  "bid8TextColor": {
+    "type": "colorpicker",
+    "label": "Text color",
+    "value": "rgb(1, 0, 0)",
+    "group": "Bid Option 8"
+  },
+  "widgetName": {
+    "type": "hidden",
+    "value": "Bid War Tracker",
+    "group": "Bid Option 8"
+  },
+  "widgetAuthor": {
+    "type": "hidden",
+    "value": "Fouton",
+    "group": "Bid Option 8"
+  },
+  "widgetVersion": {
+    "type": "hidden",
+    "value": "1.0",
+    "group": "Bid Option 8"
+  }
+}
